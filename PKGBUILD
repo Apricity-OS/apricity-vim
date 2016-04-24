@@ -2,7 +2,7 @@
 
 _pkgname='Apricity Vim'
 pkgname=apricity-vim
-pkgver=0.1.3
+pkgver=0.1.4
 pkgrel=1
 pkgdesc='Vim config for Apricity OS'
 arch=(any)
@@ -10,7 +10,7 @@ license=(GPL)
 install="apricity-vim.install"
 url="https://github.com/ApricityOS"
 source=("apricity-vim.tar.gz")
-sha256sums=(SKIP)
+sha256sums=('1c4dae9bcf39742f001a8bc7c110a2f20d1cd3820b47ef53c220809dc07c2fd7')
 
 package() {
 	mkdir -p "${pkgdir}/etc/skel/"
