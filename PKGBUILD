@@ -8,7 +8,7 @@ pkgdesc='Vim config for Apricity OS'
 arch=(any)
 license=(GPL)
 install="apricity-vim.install"
-url="https://github.com/ApricityOS"
+url="https://github.com/Apricity-OS/apricity-vim"
 source=("apricity-vim.tar.gz")
 sha256sums=('1c4dae9bcf39742f001a8bc7c110a2f20d1cd3820b47ef53c220809dc07c2fd7')
 
